@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsApp", "MetricsApp\MetricsApp.csproj", "{444CDEC1-47BD-4A9E-BF1C-823EE5649F6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{444CDEC1-47BD-4A9E-BF1C-823EE5649F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444CDEC1-47BD-4A9E-BF1C-823EE5649F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444CDEC1-47BD-4A9E-BF1C-823EE5649F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444CDEC1-47BD-4A9E-BF1C-823EE5649F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5931AC7C-3965-40CD-8A71-EA32D3F19ABE}
+	EndGlobalSection
+EndGlobal
