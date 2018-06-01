@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsApp", "MetricsApp\MetricsApp.csproj", "{444CDEC1-47BD-4A9E-BF1C-823EE5649F6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsAPI", "..\MetricsAPI\MetricsAPI.csproj", "{DDD17E68-78FF-486F-B1CD-B95B8978B58E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsAPI", "MetricsAPI\MetricsAPI.csproj", "{DDD17E68-78FF-486F-B1CD-B95B8978B58E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
