@@ -1,8 +1,7 @@
-﻿using App.Metrics.AspNetCore;
-using Microsoft.AspNetCore;
+﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace MetricsAPI
+namespace Metrics_Test
 {
     public class Program
     {
@@ -13,7 +12,6 @@ namespace MetricsAPI
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseMetrics()
                 .UseStartup<Startup>()
                 .Build();
     }
