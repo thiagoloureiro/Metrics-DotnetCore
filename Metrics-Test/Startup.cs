@@ -1,5 +1,4 @@
-﻿using System;
-using App.Metrics.Configuration;
+﻿using App.Metrics.Configuration;
 using App.Metrics.Extensions.Reporting.InfluxDB;
 using App.Metrics.Extensions.Reporting.InfluxDB.Client;
 using App.Metrics.Reporting.Interfaces;
@@ -9,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using System;
 
 namespace Metrics_Test
 {
@@ -59,13 +59,6 @@ namespace Metrics_Test
             app.UseMetrics();
             app.UseMetricsReporting(lifetime);
             app.UseMvc();
-            // Or if an ASP.NET Core MVC Web Application template was created rather than a Web API
-            // app.UseMvc(routes => 
-            // {
-            // routes.MapRoute(
-            // "default",
-            // "{controller=Home}/{action=Index}/{id?}");
-            // });
         }
     }
 }
