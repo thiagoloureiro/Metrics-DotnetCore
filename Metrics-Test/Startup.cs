@@ -36,7 +36,6 @@ namespace Metrics_Test
                     });
                 })
                 .AddHealthChecks()
-                //.AddJsonSerialization()
                 .AddReporting(
                     factory =>
                     {
