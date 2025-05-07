@@ -54,10 +54,14 @@ namespace Metrics_Test
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, IApplicationLifetime lifetime)
         {
-            loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             app.UseMetrics();
             app.UseMetricsReporting(lifetime);
-            app.UseMvc();
+            app.UseRouting();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
         }
     }
 }
